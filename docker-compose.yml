@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  app:
+    build: .
+    ports:
+      - '4174:4174'
+    environment:
+      - NODE_ENV=production
+      - PORT=4174
